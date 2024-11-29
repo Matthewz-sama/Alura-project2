@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura Subaquática</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/first-image.jpg" alt="">
+            <p>Você é o faxineiro de uma nave de colonização da companhia chamada "Alterra", tudo anda bem... assim que entram em um sistema planetário o capitão decide fazer uma manobra de aceleração gravitacional, passando por um planeta desconhecido. Entretanto assim que ele entra no campo de influência gravitacional do planeta, são detectadas assinaturas de raios ionizados em direção a nave, e antes mesmo que algo poderia ser feito, a nave é atingida por um fluxo ionizado que a coloca em estado crítico em descendência ao planeta, sirenes apitam e as luzes vermelhas começam a pulsar, você corre para as capsulas de suporte a vida, e por um triz consegue entrar na última disponível, você se senta rapidamente e trava seu assento. Logo você ouve um grande estouro, e a nave começa a entrar na atmosfera do planeta, e pela escotilha você avista a explosão da nave, mas você não possui nem mesmo tempo suficiente para entrar em pânico, pois uma chapa de titânio acaba se soltando de uma parte interna da capsula e acaba por te atingir na testa, lhe deixando inconsciente.</p>
+            <button class="btn-proximo" data-proximo="1">Pegar extintor de incêndio</button>
+            <button class="btn-proximo" data-proximo="2">Usar água de emergência</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você pegou o extintor de incêndio e extinguiu as chamas da capsula de sobrevivência. Você vê que a capsula de sobrevivência está com o rádio e sistemas secundários danificados, o que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Sair pela escotilha de cima</button>
+            <button class="btn-proximo" data-proximo="4">Sair pela escotilha de baixo</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>A água apenas piorou o incêndio e acabou lhe fritando vivo, causando explosões dos componentes eletrônicos o que acabou selando as saídas pelo derretimendo do selador das escotilhas, impedindo qualquer esperança de escapatória. (recarregue a página para reiniciar)</p>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/thirth-image.jpg">
+            <p>Você saiu pela escotilha de cima e se deparou com a nave que estava soterrada parcialmente na areia do horizonte</p>
+            <button class="btn-proximo" data-proximo="1">Voltar para a capsula</button>
+            <button class="btn-proximo" data-proximo="4">Saltar para o oceano</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você saltou ao oceano, agora submerso na água, você precisa encontrar alimento e água, o que você fará?</p>
+            <button class="btn-proximo" data-proximo="5">Seguir em frente</button>
+            <button class="btn-proximo" data-proximo="7">Virar para direita</button>
+        </div>
+
+       <div class="passo" id="passo-5">
+            <img src="img/KelpForest.jpeg">
+            <p>Você segue em frente e acaba se deparando com uma floresta de algas, o que você faz?</p>
+            <button class="btn-proximo" data-proximo="6">Explorar a floresta de algas</button>
+            <button class="btn-proximo" data-proximo="4">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/stalker.jpg">
+            <p>Você acaba se deparando com uma espécie de tubarão alienígena, e ele acaba o devorando(recarregue a página para reiniciar)</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você segue o caminho da direita por muito tempo, até que acaba encontrando uma ilha, o que você faz?</p>
+            <button class="btn-proximo" data-proximo="8">Explorar a ilha</button>
+            <button class="btn-proximo" data-proximo="4">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/base.jpg">
+            <p>Você explora a ilha, e acaba encontrando restos de uma base da... Alterra? Você explora um pouco mais e descobre que não é a primeira nave que caiu no planeta, e que anos atrás caíram outros tripulantes neste planeta, e que eles viveram nesta região por bastante tempo, até que eles desapareceram de alguma forma... Aproveitando as anotações dos antigos sobreviventes e os materiais da ilha, juntamente com uma ferramenta de tecnologia de ponta que você encontrou, você foi capaz de construir uma "casa" para você, conseguindo energia de fontes termais graças a um diagrama que estava no banco de dados do seu PDA de uma usina termoelétrica e se alimentando das frutas das árvores da ilha e bebendo água filtrada graças a uma máquina que milagrosamente, após todos esses anos ainda funcionava, você fez alguns reparos e decidiu viver tranquilamente por ali até chegar ajuda(recarregue a página para reiniciar)</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
